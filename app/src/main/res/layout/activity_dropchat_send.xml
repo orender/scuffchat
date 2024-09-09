@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@drawable/dropchat_send_bg"
+    tools:context=".ChatsList">
+
+    <Button
+        android:id="@+id/LeaveDropchatSend"
+        android:layout_width="47dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:backgroundTint="@null"
+        android:background="@drawable/ic_leave_activity_button" />
+
+    <TextView
+        android:id="@+id/distanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="0 km"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:textColor="@android:color/black" />
+
+    <ListView
+        android:id="@+id/listViewDropchats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/RefreshLocalButton"
+        android:layout_below="@id/LeaveDropchatSend"/>
+
+    <SeekBar
+        android:id="@+id/distanceSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/RefreshLocalButton"
+        android:max="100"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/RefreshLocalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_button_bg"
+        android:text="Refresh"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:backgroundTint="@null" />
+
+</RelativeLayout>

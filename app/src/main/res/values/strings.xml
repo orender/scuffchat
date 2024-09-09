@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">scuffchat</string>
+    <string name="title_activity_user_locations">UserLocations</string>
+    <string name="app_rules_title">App Rules:</string>
+    <string name="app_rules_1">1) Respectful Content: Users are prohibited from sharing any sexually explicit or inappropriate content.</string>
+    <string name="app_rules_2">2) Message Etiquette: Avoid spamming or bombarding other users with unnecessary messages.</string>
+    <string name="app_rules_3">3) Business Promotion: Refrain from promoting personal or commercial businesses within the app.</string>
+    <string name="app_rules_main_point">Main Point: This app is designed for enjoyable and lighthearted interactions. Lets maintain a positive and fun atmosphere by adhering to these guidelines.</string>
+</resources>

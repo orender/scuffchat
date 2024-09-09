@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Bubble body -->
+    <path
+        android:fillColor="#2979FF"
+        android:pathData="M10,6h40a6,6 0 0 1 6,6v20a0,0 0 0 1 0,0h-6v8l-8,-8h-26a6,6 0 0 1 -6,-6v-20a6,6 0 0 1 6,-6z"/>
+    <!-- Tail -->
+    <path
+        android:fillColor="#2979FF"
+        android:pathData="M54,30l8,8v-24a6,6 0 0 0 -6,-6h-4z"/>
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="chat_edittext_background_color">#FFFFFF</color>
+    <color name="chat_edittext_stroke_color">#BDBDBD</color>
+    <color name="chat_hint_color">#9E9E9E</color>
+    <color name="chat_button_normal_color">#64B5F6</color>
+    <color name="chat_button_pressed_color">#42A5F5</color>
+    <color name="chat_button_text_color">#FFFFFF</color>
+</resources>

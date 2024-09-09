@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="@drawable/logout_button_background"
+        app:backgroundTint="@null"
+        android:textColor="#FFFFFF"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogout"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnGlobalChats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Global Chats"
+            android:background="@drawable/chat_bubble_background"
+            android:textColor="#FFFFFF"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="8dp"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/btnSendDropchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Dropchat"
+            android:background="@drawable/chat_bubble_background"
+            android:textColor="#FFFFFF"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="8dp"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/btnDropchatFlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dropchat Flow"
+            android:background="@drawable/chat_bubble_background"
+            android:textColor="#FFFFFF"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="8dp"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/btnUserLocations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Locations"
+            android:background="@drawable/chat_bubble_background"
+            android:textColor="#FFFFFF"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:backgroundTint="@null"/>
+
+        <!-- TextView for App Rules -->
+        <TextView
+            android:id="@+id/tvAppRulesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/btnUserLocations"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/app_rules_title" />
+        <!-- TextView for App Rules -->
+        <TextView
+            android:id="@+id/tvAppRule1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/btnUserLocations"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/app_rules_1" />
+        <!-- TextView for App Rules -->
+        <TextView
+            android:id="@+id/tvAppRule2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/btnUserLocations"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/app_rules_2" />
+        <!-- TextView for App Rules -->
+        <TextView
+            android:id="@+id/tvAppRule3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/btnUserLocations"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/app_rules_3" />
+        <!-- TextView for App Rules -->
+        <TextView
+            android:id="@+id/tvAppMainPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/btnUserLocations"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/app_rules_main_point" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

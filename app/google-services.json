@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "788458236757",
+    "firebase_url": "https://scuffchat-dd313-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "scuffchat-dd313",
+    "storage_bucket": "scuffchat-dd313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788458236757:android:3a257e784be3f9b7139ddc",
+        "android_client_info": {
+          "package_name": "com.example.scuffchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcOWQYIM5tAaQCrS7_yEYAw3lmJRWDx5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

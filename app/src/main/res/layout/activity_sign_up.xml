@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/signup">
+
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="189dp"
+        android:layout_height="242dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/app_logo" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:background="@null"
+        android:padding="16dp"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:drawableLeft="@drawable/profile_login"
+        android:textColorHint="@color/chat_hint_color"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/chat_hint_color" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/chat_button_bg"
+        android:textColor="@color/chat_button_text_color"
+        app:backgroundTint="@null"/>
+    <TextView
+        android:id="@+id/textViewLogIn"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log In"
+        android:textColor="@color/chat_hint_color" />
+
+</LinearLayout>
